@@ -1,0 +1,17 @@
+group 'com.hainet'
+version '1.0.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.github.mygreen', name: 'super-csv-annotation', version: '2.0.3'
+
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.18'
+    compile group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.25'
+}
